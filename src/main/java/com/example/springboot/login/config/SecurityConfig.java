@@ -19,6 +19,13 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
             .and()
             .formLogin()
             .loginPage("/login")
+//            .usernameParameter("email") //for custom username parameter
+//            .passwordParameter("pass") //for custom password parameter
+//            .loginProcessingUrl("doLogin") //for custom login url
+//            .defaultSuccessUrl("login_success")
+//            .failureUrl("login_error")
+//            .successForwardUrl("login_success_handler")
+//            .failureForwardUrl("/login_failure_handler")
             .permitAll();
     }
 }
