@@ -11,6 +11,7 @@
 	<groupId>com.example</groupId>
 	<artifactId>springboot-custom-login</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
 	<name>springboot-custom-login</name>
 	<description>Demo project for Spring Boot custom login using spring security</description>
 	<properties>
