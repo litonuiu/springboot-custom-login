@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+</head>
+<body>
+    <h1>Home Screen</h1>
+    <div>
+        <form id="logoutForm" name="logoutForm" th:action="@{/logout}" method="post">
+            <fieldset>
+                <legend>Welcome to Home after Login</legend>
+
+                <div class="form-actions">
+                    <button type="submit" class="btn">Logout</button>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
